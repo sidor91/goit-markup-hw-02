@@ -12,13 +12,45 @@ body {
     color: #757575;
 }
 
+.list {
+    list-style: none;
+}
+
 /* Хедер */
 
 .header {
     background-color: #FFFFFF;
-    color: #212121;
 }
+
+/* Лого */
 
 .logo {
     color: #212121;
 }
+
+.logo .accent {
+    color: #2196F3;
+}
+
+/* Головна навігація */
+
+.site-nav .link {
+    color: #212121;
+}
+
+.site-nav .link:hover, .site-nav .link:focus {
+    color: #2196F3;
+}
+
+/* Контакти у хедері */
+
+.header-contacts .link {
+    color: #212121;
+}
+
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+    color: #2196F3;
+}
+
+
