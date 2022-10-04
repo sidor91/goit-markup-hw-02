@@ -56,6 +56,10 @@ body {
     color: var(--title-text-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
 .site-nav .link:hover, .site-nav .link:focus {
     color: var(--accent-color);
 }
@@ -85,6 +89,7 @@ body {
     background-color: var(--accent-color);
     color: var(--white-color);
 }
+
 
 .section-title {
     color: var(--title-text-color);
@@ -128,3 +133,23 @@ body {
 .footer-contacts .link:focus {
 color: var(--accent-color);
 }
+
+/* Фільтр */
+
+.category-button {
+    background-color: var(--secondary-background-color);
+    color: var(--title-text-color);
+}
+
+.category-button:hover,
+.category-button:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+/* Портфоліо */
+
+.project-title {
+    color: var(--title-text-color);
+}
+
