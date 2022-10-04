@@ -1,7 +1,8 @@
 /* колір основного тексту #757575 */
 /* колір заголовків #212121 */
 /* акцент #2196F3 */
-/* колір контактів rgba(255, 255, 255, 0.6); */
+/* колір контактів у хедері */
+/* колір контактів у футеріrgba(255, 255, 255, 0.6); */
 /* білий #FFFFFF */
 /* колір основного фона #F5F5F5 */
 /* вторинний цвіт фону #F5F4FA */
@@ -11,7 +12,8 @@
     --primary-text-color:#757575;
     --title-text-color:#212121;
     --accent-color:#2196F3;
-    --contacts-color:rgba(255, 255, 255, 0.6);
+    --header-contacts-color:#757575;
+    --footer-contacts-color:rgba(255, 255, 255, 0.6);
     --white-color:#FFFFFF;
     --primary-background-color:#F5F5F5;
     --secondary-background-color:#F5F4FA;
@@ -40,11 +42,11 @@ body {
 
 /* Лого */
 
-.logo {
+.header-logo {
     color: var(--title-text-color);
 }
 
-.logo .accent {
+.header-logo .accent {
     color: var(--accent-color);
 }
 
@@ -61,7 +63,7 @@ body {
 /* Контакти у хедері */
 
 .header-contacts .link {
-    color: var(--title-text-color);
+    color: var(--header-contacts-color);
 }
 
 .header-contacts .link:hover,
@@ -98,4 +100,31 @@ body {
 
 .team .team-name {
     color: var(--title-text-color);
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--hero-background-color);
+}
+
+.footer-logo {
+    color: var(--white-color);
+}
+
+.footer-logo .accent {
+    color: var(--accent-color);
+}
+
+.address {
+    color: var(--white-color);
+}
+
+.footer-contacts .link {
+    color: var(--footer-contacts-color);
+}
+
+.footer-contacts .link:hover,
+.footer-contacts .link:focus {
+color: var(--accent-color);
 }
