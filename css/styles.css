@@ -93,3 +93,9 @@ body {
 .features .features-title {
     color: var(--title-text-color);
 }
+
+/* Team */
+
+.team .team-name {
+    color: var(--title-text-color);
+}
