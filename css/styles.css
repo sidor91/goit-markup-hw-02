@@ -7,9 +7,21 @@
 /* вторинний цвіт фону #F5F4FA */
 /* фон хедера #FFFFFF */
 
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --contacts-color:rgba(255, 255, 255, 0.6);
+    --white-color:#FFFFFF;
+    --primary-background-color:#F5F5F5;
+    --secondary-background-color:#F5F4FA;
+    --header-background-color:#FFFFFF;
+    --hero-background-color:#2F303A;
+}
+
 body {
-    background-color: #F5F5F5;
-    color: #757575;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
 }
 
 .list {
@@ -23,51 +35,61 @@ body {
 /* Хедер */
 
 .header {
-    background-color: #FFFFFF;
+    background-color: var(--header-background-color);
 }
 
 /* Лого */
 
 .logo {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .logo .accent {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* Головна навігація */
 
 .site-nav .link {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .site-nav .link:hover, .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* Контакти у хедері */
 
 .header-contacts .link {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .header-contacts .link:hover,
 .header-contacts .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* Hero */
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--hero-background-color);
 }
 
-.main-header {
-    color: #FFFFFF;
+.hero-title {
+    color: var(--white-color);
 }
 
 .hero-button {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Features */
+
+.features .features-title {
+    color: var(--title-text-color);
 }
