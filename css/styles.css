@@ -129,10 +129,7 @@ body {
     color: var(--footer-contacts-color);
 }
 
-.footer-contacts .link:hover,
-.footer-contacts .link:focus {
-color: var(--accent-color);
-}
+
 
 /* Фільтр */
 
