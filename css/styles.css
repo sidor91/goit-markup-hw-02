@@ -1,6 +1,7 @@
 /* колір основного тексту #757575 */
 /* колір заголовків #212121 */
 /* акцент #2196F3 */
+/* колір ховера по кнопці "замовити послугу" #188CE8 */
 /* колір контактів у хедері */
 /* колір контактів у футеріrgba(255, 255, 255, 0.6); */
 /* білий #FFFFFF */
@@ -19,6 +20,7 @@
     --secondary-background-color:#F5F4FA;
     --header-background-color:#FFFFFF;
     --hero-background-color:#2F303A;
+    --order-button-hover:#188CE8;
 }
 
 body {
@@ -122,6 +124,10 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+}
+
+.hero-button:hover, .hero-button:focus {
+    background-color: var(--order-button-hover);
 }
 
 
